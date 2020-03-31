@@ -40,7 +40,7 @@ class Users extends Conexao
 
     public function showUsers(){
         try{
-            $query = "SELECT * FROM users WHERE 1";
+            $query = "SELECT id, `name`, email,drink_counter FROM users WHERE 1";
             $sql = $this->con->prepare($query);
             $sql->execute();
             $result = $sql->get_result();
@@ -75,7 +75,7 @@ class Users extends Conexao
 
     public function getUserId($idUser){
         try{
-            $query = "SELECT * FROM users WHERE id = ?";
+            $query = "SELECT id, `name`, email, drink_counter FROM users WHERE id = ?";
             $sql = $this->con->prepare($query);
             $sql->bind_param('i',$idUser);
             $sql->execute();
