@@ -13,15 +13,15 @@ e o padão se quiser pode mudar.<br><br>
 Usar um servidor php.
 
 # API URL
-localhost/newProject/users GET OU POST <br>
-localhost/newProject/users/login POST <br>
-localhost/newProject/users/:iduser GET ou PUT ou DELETE <br>
-localhost/newProject/users/users/:iduser/drink POST <br>
+localhost/teste-api-resp/users GET OU POST <br>
+localhost/teste-api-resp/users/login POST <br>
+localhost/teste-api-resp/users/:iduser GET ou PUT ou DELETE <br>
+localhost/teste-api-resp/users/users/:iduser/drink POST <br>
 
 # Authorization
 User Url abaixo, passe email e senha. O retorno vai obiter o
  token para acesso as demais API add na header "Authorization" : "token"    
- <br> localhost/newProject/users/login POST   <br>  
+ <br> localhost/teste-api-resp/users/login POST   <br>  
     
     
 
