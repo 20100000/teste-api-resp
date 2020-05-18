@@ -2,17 +2,17 @@
 
 # Banco de dados.
 Banco de dados Mysql a base e test.sql exportar base, na raiz do projeto.
-#CONEXÂO
+# CONEXÂO
 Em controller/class/Conexao.php esta dados da conexão com banco de dados, esse 
 e o padão se quiser pode mudar.<br><br>
     protected $server = "localhost";.<br>
     protected $user = "root";.<br>
     protected $senha = "" ;.<br>
     protected $bd = "test";.<br>
-#Aplicação
+# Aplicação
 Usar um servidor php.
 
-#API URL
+# API URL
 localhost/newProject/users GET OU POST
 localhost/newProject/users/login POST
 localhost/newProject/users/:iduser GET ou PUT ou DELETE
@@ -24,10 +24,10 @@ no boby add ML
 localhost/newProject/users/users/:iduser/history GET
 localhost/newProject/users/users/ranking GET
 
-#Authorization
+# Authorization
 User Url abaixo, passe email e senha. O retorno vai obiter o
  token para acesso as demais API add na header "Authorization" : "token"    
-localhost/newProject/users/login POST    
+ <br> localhost/teste-api-resp/users/login POST   <br>  
     
     
 
