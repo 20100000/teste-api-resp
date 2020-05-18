@@ -17,7 +17,7 @@ localhost/teste-api-resp/users GET OU POST <br>
 localhost/teste-api-resp/users/login POST<br>
 localhost/teste-api-resp/users/:iduser GET ou PUT ou DELETE<br>
 localhost/teste-api-resp/users/users/:iduser/drink POST<br>
-no boby add ML
+na boby add ML
 <pre>
 {
 	"ml" : 60
