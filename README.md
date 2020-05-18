@@ -1,7 +1,7 @@
 # Teste Tiago Honorio Matos Da Silva
 
 # Banco de dados.
-Banco de dados Mysql a base e test.sql exportar base, na raiz do projeto.
+Banco de dados Mysql a base e test.sql exportar base, esta na raiz do projeto.
 # CONEXÂO
 Em controller/class/Conexao.php esta dados da conexão com banco de dados, esse 
 e o padão se quiser pode mudar.<br><br>
